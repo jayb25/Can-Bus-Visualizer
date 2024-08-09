@@ -8,7 +8,7 @@ const LineChart = ({ data, options }) => {
 
     useEffect(() => {
         const ctx = chartRef.current.getContext('2d');
-        // distroy the previous chart
+        // destroy the previous chart
         if (window.myLineChart) {
             window.myLineChart.destroy();
         }
